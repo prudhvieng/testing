@@ -27,4 +27,5 @@ jobs:
     steps:
     # Runs a single command using the runners shell
     - name: Jfrog
-      uses: jfrog/setup-jfrog-cli@v1.1.0
+      uses: jfrog/setup-jfrog-cli@v1
+    - run: jfrog --version
